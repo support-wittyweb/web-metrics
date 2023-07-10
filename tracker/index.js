@@ -26,8 +26,8 @@
     : currentScript.src.split('/').slice(0, -1).join('/');
   const endpoint = `${root}/api/send`;
   const screen = `${width}x${height}`;
-  const eventRegex = /data-umami-event-([\w-_]+)/;
-  const eventNameAttribute = _data + 'umami-event';
+  const eventRegex = /data-wm-event-([\w-_]+)/;
+  const eventNameAttribute = _data + 'wm-event';
   const delayDuration = 300;
 
   /* Helper functions */
