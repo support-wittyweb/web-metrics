@@ -78,14 +78,14 @@ export function TestConsole() {
                 <Link href={`/console/${websiteId}/page/2/?q=123 `}>page two</Link>
               </div>
               <div>
-                <a href="https://www.google.com" data-umami-event="external-link-direct">
+                <a href="https://www.google.com" data-wm-event="external-link-direct">
                   external link (direct)
                 </a>
               </div>
               <div>
                 <a
                   href="https://www.google.com"
-                  data-umami-event="external-link-tab"
+                  data-wm-event="external-link-tab"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -95,15 +95,15 @@ export function TestConsole() {
             </Column>
             <Column xs="4">
               <div className={styles.header}>Click events</div>
-              <Button id="send-event-button" data-umami-event="button-click" variant="action">
+              <Button id="send-event-button" data-wm-event="button-click" variant="action">
                 Send event
               </Button>
               <p />
               <Button
                 id="send-event-data-button"
-                data-umami-event="button-click"
-                data-umami-event-name="bob"
-                data-umami-event-id="123"
+                data-wm-event="button-click"
+                data-wm-event-name="bob"
+                data-wm-event-id="123"
                 variant="action"
               >
                 Send event with data
