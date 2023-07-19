@@ -81,6 +81,7 @@ const config = {
   basePath: process.env.BASE_PATH,
   output: 'standalone',
   eslint: {
+     reactStrictMode: true,
     ignoreDuringBuilds: true,
   },
   typescript: {
