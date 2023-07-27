@@ -20,7 +20,7 @@
     "next"
   ],
 
-  "plugins": ["@typescript-eslint", "prettier", "formatjs"],
+  "plugins": ["@typescript-eslint", "prettier"],
   "settings": {
     "import/resolver": {
       "alias": {
@@ -51,7 +51,6 @@
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-var-requires": "off"
-    "formatjs/enforce-id": "error"
   },
   "globals": {
     "React": "writable"
